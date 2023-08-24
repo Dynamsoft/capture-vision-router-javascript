@@ -41,7 +41,7 @@ yarn.lock
 /*.txt
 /.gitattributes
 /.*ignore
-/dynamsoft-camera-enhancer-js-*
+/dynamsoft-capture-vision-router-js-*
 /sampleFromGithub
 /src
 /doc
@@ -51,6 +51,7 @@ yarn.lock
 /public
 /README.html
 
-!/legal.txt
+!/LEGAL.txt
 !/package.json
 !/LICENSE
+
