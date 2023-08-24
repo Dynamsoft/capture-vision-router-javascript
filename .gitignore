@@ -30,6 +30,7 @@ package-lock.json
 yarn.lock
 .git
 .npmrc
+updateReadme.cjs
 /*.zip
 /*.py
 /*.exe

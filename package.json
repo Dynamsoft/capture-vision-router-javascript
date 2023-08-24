@@ -1,6 +1,6 @@
 {
   "name": "dynamsoft-capture-vision-router",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "The router in the Dynamsoft Capture Vision architecture responsible for task coordination and more.",
   "files": [
     "/dist/*.js",
@@ -54,7 +54,7 @@
     "sdk",
     "webassembly"
   ],
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "build-dev": "rollup -c --environment BUILD:development",
     "build": "rollup -c --environment BUILD:production",
@@ -95,7 +95,7 @@
     }
   },
   "dependencies": {
-    "dynamsoft-document-normalizer": "^2.0.10",
+    "dynamsoft-document-normalizer": "^2.0.11",
     "dynamsoft-core": "^3.0.10"
   }
 }

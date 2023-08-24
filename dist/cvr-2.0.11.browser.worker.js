@@ -4,7 +4,7 @@
  * @website http://www.dynamsoft.com
  * @copyright Copyright 2023, Dynamsoft Corporation
  * @author Dynamsoft
- * @version 2.0.10 (js 20230823)
+ * @version 2.0.11 (js 20230823)
  * @fileoverview Dynamsoft JavaScript Library for Capture Vision
  * More info on cvr JS: https://www.dynamsoft.com/capture-vision-router/sdk-javascript/
  */
