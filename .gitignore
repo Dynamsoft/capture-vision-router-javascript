@@ -30,7 +30,6 @@ package-lock.json
 yarn.lock
 .git
 .npmrc
-updateReadme.cjs
 /*.zip
 /*.py
 /*.exe
@@ -39,6 +38,7 @@ updateReadme.cjs
 /*.html
 /*.json
 /*.js
+/*.cjs
 /*.txt
 /.gitattributes
 /.*ignore
