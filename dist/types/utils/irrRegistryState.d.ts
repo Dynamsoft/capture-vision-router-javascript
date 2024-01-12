@@ -1,12 +1,13 @@
 declare const _default: {
     onTaskResultsReceived: boolean;
+    onTaskResultsReceivedForDce: boolean;
     onPredetectedRegionsReceived: boolean;
     onLocalizedBarcodesReceived: boolean;
     onDecodedBarcodesReceived: boolean;
+    onLocalizedTextLinesReceived: boolean;
     onRecognizedTextLinesReceived: boolean;
     onDetectedQuadsReceived: boolean;
     onNormalizedImagesReceived: boolean;
-    onParsedResultsReceived: boolean;
     onColourImageUnitReceived: boolean;
     onScaledDownColourImageUnitReceived: boolean;
     onGrayscaleImageUnitReceived: boolean;
