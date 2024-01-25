@@ -4,4 +4,3 @@ export default class CapturedResultReceiver {
     onOriginalImageResultReceived: (result: OriginalImageResultItem) => void;
     [key: string]: any;
 }
-//# sourceMappingURL=capturedresultreceiver.d.ts.map

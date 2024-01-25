@@ -1,5 +1,4 @@
 import { EnumImageSourceState } from "../enum/enumimagesourcestate";
 export interface ImageSourceStateListener {
-    onImageSourceStateListener?: (status: EnumImageSourceState) => void;
+    onImageSourceStateReceived?: (status: EnumImageSourceState) => void;
 }
-//# sourceMappingURL=imagesourcestatelistener.d.ts.map

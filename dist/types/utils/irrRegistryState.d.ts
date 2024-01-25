@@ -30,4 +30,3 @@ declare const _default: {
     onComplementedBarcodeImageUnitReceived: boolean;
 };
 export default _default;
-//# sourceMappingURL=irrRegistryState.d.ts.map
