@@ -23,4 +23,3 @@ export interface SimplifiedCaptureVisionSettings {
     barcodeSettings: any;
     labelSettings: any;
 }
-//# sourceMappingURL=simplifiedcapturevisionsettings.d.ts.map

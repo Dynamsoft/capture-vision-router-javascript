@@ -1,6 +1,6 @@
 {
   "name": "dynamsoft-capture-vision-router",
-  "version": "2.0.30",
+  "version": "2.0.31",
   "description": "The Dynamsoft Capture Vision Router module is the cornerstone of the Dynamsoft Capture Vision architecture.",
   "files": [
     "/dist/*.js",
@@ -79,17 +79,18 @@
     "updateDLR:dev": "updateImportedPkg --package=dynamsoft-label-recognizer --dev",
     "updateDDN:prod": "updateImportedPkg --package=dynamsoft-document-normalizer --no-dev",
     "updateDDN:dev": "updateImportedPkg --package=dynamsoft-document-normalizer --dev",
-    "easyPublish": "npm run update:dev && npm i @dynamsoft/dynamsoft-core@latest && npm run build-dev && npm publish"
+    "easyPublish": "npm run update:dev && npm i @dynamsoft/dynamsoft-core@latest && npm run build-dev && npm publish",
+    "ep-no-core": "npm run update:dev && npm run build && npm publish"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
-    "@dynamsoft/dynamsoft-barcode-reader": "^10.0.20-dev-20240111145703",
-    "@dynamsoft/dynamsoft-code-parser": "^2.0.20-dev-20240111145632",
-    "@dynamsoft/dynamsoft-document-normalizer": "^2.0.20-dev-20240111134814",
-    "@dynamsoft/dynamsoft-label-recognizer": "^3.0.30-dev-20240111145810",
-    "@dynamsoft/dynamsoft-license": "^3.0.20-dev-20240111135000",
-    "@dynamsoft/rd2-scripts": "^0.1.4",
+    "@dynamsoft/dynamsoft-barcode-reader": "^10.0.20-dev-20240125111630",
+    "@dynamsoft/dynamsoft-code-parser": "^2.0.20-dev-20240125142433",
+    "@dynamsoft/dynamsoft-document-normalizer": "^2.0.21-dev-20240125142731",
+    "@dynamsoft/dynamsoft-label-recognizer": "^3.0.30-dev-20240125112120",
+    "@dynamsoft/dynamsoft-license": "^3.0.21-dev-20240125142641",
+    "@dynamsoft/rd2-scripts": "^0.1.8",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-terser": "^0.4.0",
@@ -115,6 +116,6 @@
     }
   },
   "dependencies": {
-    "dynamsoft-core": "^3.0.30"
+    "dynamsoft-core": "^3.0.31"
   }
 }

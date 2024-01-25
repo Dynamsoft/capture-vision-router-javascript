@@ -4,4 +4,3 @@ export default class IntermediateResultManager {
     addResultReceiver(receiver: IntermediateResultReceiver): void;
     removeResultReceiver(receiver: IntermediateResultReceiver): void;
 }
-//# sourceMappingURL=intermediateresultmanager.d.ts.map

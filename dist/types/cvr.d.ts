@@ -9,4 +9,3 @@ import { ImageSourceStateListener } from "./interface/imagesourcestatelistener";
 import { CapturedResultFilter } from "./interface/capturedresultfilter";
 import { EnumImageSourceState } from "./enum/enumimagesourcestate";
 export { CaptureVisionRouter, CapturedResultReceiver, CaptureVisionRouterModule, RawImageResultItem, IntermediateResultReceiver, IntermediateResultManager, CapturedResultFilter, SimplifiedCaptureVisionSettings, ImageSourceStateListener, EnumImageSourceState };
-//# sourceMappingURL=cvr.d.ts.map

@@ -16,4 +16,3 @@ export default class IntermediateResultReceiver {
     onTextZonesUnitReceived?: (result: TextZonesUnit, info: IntermediateResultExtraInfo) => void;
     onTextRemovedBinaryImageUnitReceived?: (result: TextRemovedBinaryImageUnit, info: IntermediateResultExtraInfo) => void;
 }
-//# sourceMappingURL=intermediateresultreceiver.d.ts.map

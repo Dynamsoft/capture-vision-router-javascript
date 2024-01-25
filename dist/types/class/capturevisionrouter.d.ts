@@ -156,4 +156,3 @@ export default class CaptureVisionRouter {
      */
     dispose(): Promise<void>;
 }
-//# sourceMappingURL=capturevisionrouter.d.ts.map

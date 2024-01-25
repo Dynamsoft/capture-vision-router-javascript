@@ -65,4 +65,3 @@ export declare function getNorImageData(dsImageData: DSImageData): ImageData;
 export declare function handleNormalizedImageResultItem(_item: any, retImageData: ImageData): void;
 declare const bSupportBigInt: boolean;
 export { bSupportBigInt };
-//# sourceMappingURL=index.d.ts.map
