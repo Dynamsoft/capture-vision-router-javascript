@@ -1,6 +1,6 @@
 {
   "name": "dynamsoft-capture-vision-router",
-  "version": "2.0.31",
+  "version": "2.0.32",
   "description": "The Dynamsoft Capture Vision Router module is the cornerstone of the Dynamsoft Capture Vision architecture.",
   "files": [
     "/dist/*.js",
